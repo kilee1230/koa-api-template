@@ -18,8 +18,7 @@ const logMiddleware = logger({
     censor: "**REDACTED**"
   },
   formatters: {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    level(label: string, _number: number) {
+    level(label: string, _) {
       return { level: label };
     }
   },
