@@ -2,9 +2,10 @@ import cors from "@koa/cors";
 import Koa from "koa";
 import bodyParser from "koa-bodyparser";
 import compose from "koa-compose";
-import { router } from "./routes";
-import { logMiddleware } from "./middleware/logger";
+
 import { errorMiddleware } from "./middleware/error";
+import { logMiddleware } from "./middleware/logger";
+import { router } from "./routes";
 
 export const createApp = <State, Context>(
   ...middleware: Array<Koa.Middleware<State, Context>>

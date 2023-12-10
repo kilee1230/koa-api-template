@@ -9,7 +9,7 @@ const config: Config.InitialOptions = {
   coveragePathIgnorePatterns: ["<rootDir>/src/middleware/.*.ts"],
   testRegex: "/src/.*.test.(ts|tsx|js)$",
   transform: {
-    "\\.(ts|tsx)$": "ts-jest",
+    "\\.(ts|tsx)$": "ts-jest"
   },
   verbose: true,
   coverageThreshold: {
@@ -17,8 +17,8 @@ const config: Config.InitialOptions = {
       branches: 80,
       functions: 80,
       lines: 80,
-      statements: 80,
-    },
-  },
+      statements: 80
+    }
+  }
 };
 export default config;
