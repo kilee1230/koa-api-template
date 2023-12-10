@@ -1,10 +1,10 @@
-import { agent } from "supertest";
+import supertest from "supertest";
 
 import { createApp } from "./app";
 
 describe("GET /health", () => {
   const server = createApp().listen(3000);
-  const request = agent(server);
+  const request = supertest.agent(server);
 
   afterAll(() => {
     server.close();
