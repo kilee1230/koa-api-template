@@ -5,7 +5,8 @@ const redactPaths = [
   "req.headers.authorization",
   "req.headers.referer",
   "req.headers.from",
-  "req.headers.masq"
+  "req.headers.masq",
+  "req.body.password"
 ];
 
 const logMiddleware = logger({
