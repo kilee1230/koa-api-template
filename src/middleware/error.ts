@@ -11,8 +11,8 @@ export const errorMiddleware = async (
     ctx.status = error.status || 500;
     ctx.body = {
       error: {
-        message: error.message || "Internal Server Error",
-      },
+        message: error.message || "Internal Server Error"
+      }
     };
   }
 };
