@@ -39,7 +39,9 @@ jobs:
         run: |
           echo "
    
-          Personalized readme text. Hello ${{ github.repository_owner }}!
+          # ${{ github.event.repository.name }}
+
+          A minimalistic Koa.js template for building APIs. This template provides a starting point for creating robust and scalable API projects using Koa, a modern web framework for Node.js.
 
           " > README.md
 
