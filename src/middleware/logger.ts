@@ -21,9 +21,7 @@ const logMiddleware = logger({
     level(label: string, _) {
       return { level: label };
     }
-  },
-  transport:
-    process.env.NODE_ENV === "local" ? { target: "pino-pretty" } : undefined
+  }
 });
 
 export const log = logMiddleware.logger;

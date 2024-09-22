@@ -25,9 +25,11 @@
     "koa-pino-logger": "4.0.0"
   },
   "devDependencies": {
+    "@jest/types": "^29.6.3",
     "@types/jest": "29.5.13",
     "@types/koa": "2.15.0",
     "@types/koa-bodyparser": "4.3.12",
+    "@types/koa-compose": "^3.2.8",
     "@types/koa-pino-logger": "3.0.4",
     "@types/koa__cors": "5.0.0",
     "@types/koa__router": "12.0.4",
