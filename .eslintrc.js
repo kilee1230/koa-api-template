@@ -52,5 +52,6 @@ module.exports = {
         project: "./tsconfig.json"
       }
     }
-  },ignores: [".vscode/*", "node_modules*/","/coverage*/","/dist*/"]
+  },
+  ignores: [".vscode/*", "node_modules*/", "/coverage*/", "/dist*/"]
 };
