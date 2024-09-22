@@ -21,13 +21,13 @@ A minimalistic Koa.js template for building APIs. This template provides a start
 2. **Install dependencies:**
 
    ```bash
-   yarn install
+   pnpm install
    ```
 
 3. **Run the application:**
 
    ```bash
-   yarn start:dev
+   pnpm start:dev
    ```
 
    The API will be accessible at `http://localhost:8000`.
