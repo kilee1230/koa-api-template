@@ -33,7 +33,7 @@
     "@types/koa-pino-logger": "3.0.4",
     "@types/koa__cors": "5.0.0",
     "@types/koa__router": "12.0.4",
-    "@types/node": "22.8.1",
+    "@types/node": "22.9.0",
     "@types/supertest": "6.0.2",
     "@typescript-eslint/eslint-plugin": "8.11.0",
     "@typescript-eslint/parser": "8.11.0",
