@@ -85,8 +85,8 @@ importers:
         specifier: 3.1.7
         version: 3.1.7
       pino-pretty:
-        specifier: 11.3.0
-        version: 11.3.0
+        specifier: 12.1.0
+        version: 12.1.0
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -2177,8 +2177,8 @@ packages:
   pino-http@6.6.0:
     resolution: {integrity: sha512-PlItaK2MLpoIMLEcClhfb1VQk/o6fKppINl5s6sPE/4rvufkdO3kCSs/92EwrBsB1yssRCQqDV+w1xpYuPVnjg==}
 
-  pino-pretty@11.3.0:
-    resolution: {integrity: sha512-oXwn7ICywaZPHmu3epHGU2oJX4nPmKvHvB/bwrJHlGcbEWaVcotkpyVHMKLKmiVryWYByNp0jpgAcXpFJDXJzA==}
+  pino-pretty@12.1.0:
+    resolution: {integrity: sha512-Z7JdCPqggoRyo0saJyCe1BN8At5qE+ZBElNbyx+znCaCVN+ohOqlWb+/WSYnamzfi2e6P6pXq/3H66KwFQHXWg==}
     hasBin: true
 
   pino-std-serializers@4.0.0:
@@ -3388,7 +3388,7 @@ snapshots:
 
   '@types/pino-pretty@5.0.0':
     dependencies:
-      pino-pretty: 11.3.0
+      pino-pretty: 12.1.0
 
   '@types/pino-std-serializers@4.0.0':
     dependencies:
@@ -5280,7 +5280,7 @@ snapshots:
       pino: 7.11.0
       pino-std-serializers: 5.6.0
 
-  pino-pretty@11.3.0:
+  pino-pretty@12.1.0:
     dependencies:
       colorette: 2.0.20
       dateformat: 4.6.3
