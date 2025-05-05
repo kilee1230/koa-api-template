@@ -1,5 +1,11 @@
 import Router from "@koa/router";
 
-import { healthCheckHandler } from "./healthCheck";
+import healthCheckRoutes from "./healthCheck";
 
-export const router = new Router().get("/health", healthCheckHandler);
+const router = new Router();
+
+// Combine all route modules
+router.use(healthCheckRoutes.routes(), healthCheckRoutes.allowedMethods());
+
+// Export the combined router
+export { router };
