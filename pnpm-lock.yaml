@@ -15,8 +15,8 @@ importers:
         specifier: 13.1.1
         version: 13.1.1
       koa:
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.0.1
+        version: 3.0.1
       koa-bodyparser:
         specifier: 4.4.1
         version: 4.4.1
@@ -34,8 +34,8 @@ importers:
         specifier: 30.0.0
         version: 30.0.0
       '@types/koa':
-        specifier: 2.15.0
-        version: 2.15.0
+        specifier: 3.0.0
+        version: 3.0.0
       '@types/koa-bodyparser':
         specifier: 4.3.12
         version: 4.3.12
@@ -604,8 +604,8 @@ packages:
   '@types/koa-pino-logger@3.0.5':
     resolution: {integrity: sha512-gQuPV/npT9Mns95NNBF6WaHhQjydjhJxr6TCTssgm12ZyB9+mUImGcuaIQoEJQK0JdVFzVy+XbWE5qc28WCIdw==}
 
-  '@types/koa@2.15.0':
-    resolution: {integrity: sha512-7QFsywoE5URbuVnG3loe03QXuGajrnotr3gQkXcEBShORai23MePfFYdhz90FEtBBpkyIYQbVD+evKtloCgX3g==}
+  '@types/koa@3.0.0':
+    resolution: {integrity: sha512-MOcVYdVYmkSutVHZZPh8j3+dAjLyR5Tl59CN0eKgpkE1h/LBSmPAsQQuWs+bKu7WtGNn+hKfJH9Gzml+PulmDg==}
 
   '@types/koa__cors@5.0.0':
     resolution: {integrity: sha512-LCk/n25Obq5qlernGOK/2LUwa/2YJb2lxHUkkvYFDOpLXlVI6tKcdfCHRBQnOY4LwH6el5WOLs6PD/a8Uzau6g==}
@@ -991,10 +991,6 @@ packages:
   bytes@3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
-
-  cache-content-type@1.0.1:
-    resolution: {integrity: sha512-IKufZ1o4Ut42YUrZSo8+qnMTrFuKkvyoLXUywKz9GJ5BrhOFGhLdkx9sG4KAnVvbY6kEcSFjLQul+DVmBm2bgA==}
-    engines: {node: '>= 6.0.0'}
 
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
@@ -2075,8 +2071,8 @@ packages:
   koa-pino-logger@4.0.0:
     resolution: {integrity: sha512-YI/LB9ajyLPpjvf6e+7Ewmn+OQkCJpu/Y9eI1n7fnipu5Y1NchuNlke0mqh3/2z+5oDYr7pijjOWruEDIfua2A==}
 
-  koa@3.0.0:
-    resolution: {integrity: sha512-Usyqf1o+XN618R3Jzq4S4YWbKsRtPcGpgyHXD4APdGYQQyqQ59X+Oyc7fXHS2429stzLsBiDjj6zqqYe8kknfw==}
+  koa@3.0.1:
+    resolution: {integrity: sha512-oDxVkRwPOHhGlxKIDiDB2h+/l05QPtefD7nSqRgDfZt8P+QVYFWjfeK8jANf5O2YXjk8egd7KntvXKYx82wOag==}
     engines: {node: '>= 18'}
 
   leven@3.1.0:
@@ -2957,10 +2953,6 @@ packages:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
 
-  ylru@1.4.0:
-    resolution: {integrity: sha512-2OQsPNEmBCvXuFlIni/a+Rn+R2pHW9INm0BxXJ4hVDA8TirqMj+J/Rp9ItLatT/5pZqWwefVrTQcHpixsxnVlA==}
-    engines: {node: '>= 4.0.0'}
-
   yn@3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
@@ -3619,19 +3611,19 @@ snapshots:
 
   '@types/koa-bodyparser@4.3.12':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 3.0.0
 
   '@types/koa-compose@3.2.8':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 3.0.0
 
   '@types/koa-pino-logger@3.0.5':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 3.0.0
       '@types/pino': 6.3.12
       '@types/pino-http': 5.8.4
 
-  '@types/koa@2.15.0':
+  '@types/koa@3.0.0':
     dependencies:
       '@types/accepts': 1.3.7
       '@types/content-disposition': 0.5.8
@@ -3644,11 +3636,11 @@ snapshots:
 
   '@types/koa__cors@5.0.0':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 3.0.0
 
   '@types/koa__router@12.0.4':
     dependencies:
-      '@types/koa': 2.15.0
+      '@types/koa': 3.0.0
 
   '@types/methods@1.1.4': {}
 
@@ -4076,11 +4068,6 @@ snapshots:
   buffer-from@1.1.2: {}
 
   bytes@3.1.2: {}
-
-  cache-content-type@1.0.1:
-    dependencies:
-      mime-types: 2.1.35
-      ylru: 1.4.0
 
   call-bind-apply-helpers@1.0.2:
     dependencies:
@@ -5430,14 +5417,12 @@ snapshots:
     dependencies:
       pino-http: 6.6.0
 
-  koa@3.0.0:
+  koa@3.0.1:
     dependencies:
       accepts: 1.3.8
-      cache-content-type: 1.0.1
       content-disposition: 0.5.4
       content-type: 1.0.5
       cookies: 0.9.1
-      debug: 4.4.0(supports-color@5.5.0)
       delegates: 1.0.0
       destroy: 1.2.0
       encodeurl: 2.0.0
@@ -5446,13 +5431,12 @@ snapshots:
       http-assert: 1.5.0
       http-errors: 2.0.0
       koa-compose: 4.1.0
+      mime-types: 3.0.1
       on-finished: 2.4.1
       parseurl: 1.3.3
       statuses: 2.0.1
       type-is: 2.0.1
       vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
 
   leven@3.1.0: {}
 
@@ -6397,8 +6381,6 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
-
-  ylru@1.4.0: {}
 
   yn@3.1.1: {}
 
