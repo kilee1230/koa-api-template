@@ -22,7 +22,7 @@
     "koa": "3.1.1",
     "koa-bodyparser": "4.4.1",
     "koa-compose": "4.1.0",
-    "koa-pino-logger": "4.0.0"
+    "koa-pino-logger": "5.0.0"
   },
   "devDependencies": {
     "@jest/types": "^30.0.5",
